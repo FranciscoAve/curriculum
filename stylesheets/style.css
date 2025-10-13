@@ -2,9 +2,71 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#cabecera{
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#cabecera p{
+    font-weight: lighter;
+    color: #555;
+    font-size: 1rem;
+}
+
 h1 {
     text-align: center;
     font-weight: bold;
+}
+
+h4{
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 2px rgb(151 156 165 / 0.89);
+
+}
+
+h3 {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 1em;
+}
+
+#videoContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    max-width: 100%;
+}
+
+#videoIntro {
+    width: 50vw;
+    height: 25vw;
+}
+
+
+.lista ul {
+    display:flex;
+    gap: 20px;
+    padding: 0;
+    justify-content: center;
+}
+
+.lista a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.lista a:hover {
+    background-color: #007BFF;
+    color: white;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
 }
 
 #photo {
@@ -28,7 +90,6 @@ nav > ul{
 
 section {
     border: 0.2pt solid #cedddd;
-    
     margin: 4px 2px 8px 2px;
     padding: 1.5% 0.8%;
     margin-bottom: 1.2rem;
