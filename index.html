@@ -13,9 +13,8 @@
     </header>
     <section>
             <h4>Conoceme</h4>
-            <div id="videoContainer">
-                <iframe id="videoIntro" src="https://www.youtube.com/embed/sLq73tAoKEQ?si=b-L2W4EQmLr1ILEM" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                </iframe>
+            <div class="iframeContainer">
+                <iframe id="videoIntro" src="https://www.youtube.com/embed/v6kEanzJhpg?si=v-ZFCP6nPFK24kLn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
     </section>
 
@@ -38,28 +37,55 @@
         <section id="habilidades-tecnicas">
             <h2 class="subtitle">Habilidades Técnicas</h2>
             <nav>
-                <ul>
-                    <li>Lenguajes: Java, Python, C, HTML.
-</li>
-                    <li>Bases de datos</li>
-                    <li>Herramientas: Git, GitHub, Android Studio.</li>
-                    <li>Patrones de diseño.
-</li>
-                    <li>Algoritmos y estructuras de datos.</li>
-                    <li>Paradigmas de programación.</li>
+                <ul class="lista-tecnica">
+                    <li>
+                        Lenguajes: Java, Python, C, HTML.
+                        <img src="https://pandorafms.com/blog/wp-content/uploads/2019/01/lenguajes-de-programacion-featured.png" alt="imagen de lenguajes de programacion">
+                    </li>
+
+                    <li>
+                        Bases de datos 
+                        <img src="https://media.istockphoto.com/id/1399944678/es/foto/se-coloca-varias-bases-de-datos-en-tablas-de-bases-de-datos-relacionales-con-sala-de.jpg?s=612x612&w=0&k=20&c=-WzVYH2l8haNOOXD5ErkD2UFScCdjUCNDKO72HTP3DQ=" alt="imagen de bases de datos">
+                    </li>
+                    
+
+                    <li>
+                        Herramientas: Git, GitHub, Android Studio.
+                        <img src="https://ivan395.github.io/Web/static/img/Fondo_intro.jpg" alt="imagen de herramientas de desarrollo">
+                    </li>
+                    
+
+                    <li>
+                        Patrones de diseño.
+                        <img src="https://refactoring.guru/images/patterns/content/memento/memento-es.png?id=425d7fafd404116e99e93c3d8a04ec89" alt="imagen de patrones de diseño">
+                    </li>
+                    
+
+                    <li>
+                        Algoritmos de algoritmos y estructuras de datos.
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8ZSi21rblK-3GqjxCtUg7pxiuzBvfdWUe8NSdGBU7DVUB3lQXkASIaSFGNQPJoqhs7V137mDY9a9XgsJr-ooN_4CbFTNxGnCjpoFfrbFbLpHziFYFb53fOlPfG_w6o3jYO-avLR9Ln2Db/s1600/logo-analisis.jpg" alt="imagen de algoritmos y estructuras de datos">
+                    </li>
+                    
+
+                    <li>
+                        Paradigmas de programación.
+                        <img src="https://press.com.mx/wp-content/uploads/2021/03/curso-desarrollo-web.jpg" alt="imagen de paradigmas de programación">
+                    </li>
                 </ul>
             </nav>
         </section>
         <section id="educacion">
-            <h2 class="subtitle" >Educación</h2>
-            <p>Estudié en el Interamericano</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.994373940245!2d-79.8998261206543!3d-2.1558320000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6d9f4db9d13b%3A0xbef00f8e9d9f8219!2sColegio%20Interamericano!5e0!3m2!1ses-419!2sec!4v1759778546679!5m2!1ses-419!2sec" 
-            width="650" 
-            height="450" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+            <h2 class="subtitle">Educación</h2>
+            <p>Mis estudios, tanto escuela como colegio, fueron realizados en el Interamericano.</p>
+            <div class="iframeContainer">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.994373940245!2d-79.8998261206543!3d-2.1558320000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6d9f4db9d13b%3A0xbef00f8e9d9f8219!2sColegio%20Interamericano!5e0!3m2!1ses-419!2sec!4v1759778546679!5m2!1ses-419!2sec" 
+                width="650" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
         </section>
         <section id="habilidades">
             <h2 class="subtitle">Habilidades</h2>
@@ -96,10 +122,8 @@
                 </tr>
                 <tr>
                     <td>Git y GitHub</td>
-                    <td>Avanzado</td>
-                    <td>1 año</td>
-                </tr>
-            </table>
+                </table>
+            </nav>
         </section>
         <section id="proyectos">
             <h2 class="subtitle">Proyectos</h2>
@@ -149,7 +173,7 @@
         </section>
         <section id="contacto-formulario">
             <h2 class="subtitle" >Contáctame</h2>
-            <form action="#" method="post">
+            <form action="formulario.html" method="post">
         
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
